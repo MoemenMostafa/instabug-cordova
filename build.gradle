@@ -16,11 +16,11 @@ android {
     }
 
     defaultConfig {
-        applicationId = doExtractStringFromManifest("package")
+        // applicationId = doExtractStringFromManifest("package")
     }
 }
 
 dependencies {
-	implementation 'com.instabug.library:instabug:9.1.6.0'
-	implementation 'com.android.support:multidex:1.0.0'
+	implementation 'com.instabug.library:instabug:10.0.1'
+	implementation 'com.android.support:multidex:1.0.3'
 }
